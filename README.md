@@ -1,11 +1,12 @@
 # AETS
-AETS
 =======
 Source codes for Predicting Remaining Execution Time of Business Process In-stances via Auto-encoded Transition System
+
 Requirement:
 =======
 Python 3.6  
 pytorch 1.6.0
+
 Code Structure:
 =======
 train.py: training function
