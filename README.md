@@ -4,8 +4,8 @@ Source codes for Predicting Remaining Execution Time of Business Process In-stan
 
 Requirement:
 =======
-Python 3.6  
-pytorch 1.6.0
+Python==3.6  
+pytorch==1.6.0
 
 Code Structure:
 =======
