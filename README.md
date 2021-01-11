@@ -1,4 +1,3 @@
-
 # AETS
 Source codes for Predicting Remaining Execution Time of Business Process In-stances via Auto-encoded Transition System
 
@@ -20,5 +19,4 @@ main.py: main function
 /aets/: different state representation functions are used to predict the remaining time (sequence,set and multiset)
 
 /utils/metrics.py: MAE and MSE
-
 
