@@ -1,5 +1,4 @@
 # AETS
-=======
 Source codes for Predicting Remaining Execution Time of Business Process In-stances via Auto-encoded Transition System
 
 Requirement:
