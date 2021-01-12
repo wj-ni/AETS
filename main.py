@@ -1,6 +1,8 @@
-from .aets.set import train_set
-from .aets.multiset import train_set
-from .aets.sequence import train_sequence
+from aets.set import train_set
+from aets.multiset import train_multiset
+from aets.sequence import train_sequence
+
+
 def train(file, ts_type, time_unit):
     if ts_type == 'set':
         MAE, MSE = train_set(file, ts_type, time_unit)
@@ -16,6 +18,4 @@ def train(file, ts_type, time_unit):
 if __name__ == '__main__':
     path = "./data/"
     file = "helpdesk.csv"
-    typeList = ['set']
-    for i in range(10):
-        train(file, 'set', 'day')
+    train(file, 'set', 'day')
