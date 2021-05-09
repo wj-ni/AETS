@@ -226,7 +226,7 @@ def predict(singleTrainVec, singleTrainLabel, singleTestVec, singleTestLabel, mo
             for vec in range(0, len(singleTestVec[index])):
                 input = Variable(torch.Tensor(np.array(singleTestVec[index][vec])).cuda()).cuda()
                 pred = modelDict[index](input)
-                predList.append(abs(pred))
+                predList.append(pred)
                 realList.append(singleTestLabel[index][vec])
                 singlepred.append(abs(pred))
                 singlereal.append(singleTestLabel[index][vec])
